@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+:root {
+  background-color: rgb(135, 206, 235);
+}
+
+.article p:first-child {
+  color: white;
+  background-color: black;
+}
+
+.article p:nth-child(2) {
+  color: black;
+}
+
+.article p:last-child {
+  color: red;
+}
+
+.unordered-list {
+
+}
+
+.unordered-list li {
+  width: 50%;
+  padding: 10px;
+  background-color: gray;
+}
+
+.unordered-list li:nth-child(odd) {
+  background-color: white;
+}
+
+.unordered-list li:first-child,
+.unordered-list li:last-child {
+  font-size: 22px;
+}
+
+.unordered-list li:nth-last-child(3) {
+  background-color: pink;
+}
+
+.topic-tags {
+  display: flex;
+}
+
+.topic-tags span {
+  background-color: lightblue;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
